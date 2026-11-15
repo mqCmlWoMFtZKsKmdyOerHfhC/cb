@@ -3389,6 +3389,15 @@ do
 					ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 				}):AddToTheme({ Color = "Window Outline" })
 
+								local ImgBBLogoUrl = "https://i.ibb.co/PvzSxCTq/51055f04-6eed-4918-96f3-5f6ad998dc4e-0.png"
+				local LogoPath = Library.Folders.Assets .. "/CustomLogo_imgbb.png"
+
+				if not isfile(LogoPath) then
+					pcall(function()
+						writefile(LogoPath, game:HttpGet(ImgBBLogoUrl))
+					end)
+				end
+
 				local LogoAsset = "rbxthumb://type=Asset&id=122061828886222&w=150&h=150"
 				if isfile(LogoPath) then
 					pcall(function()
