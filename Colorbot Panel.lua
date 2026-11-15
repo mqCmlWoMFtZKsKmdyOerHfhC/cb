@@ -3389,12 +3389,7 @@ do
 					ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 				}):AddToTheme({ Color = "Window Outline" })
 
-				local LogoAsset = "rbxthumb://type=Asset&id=94669191691405&w=150&h=150"
-				if isfile(LogoPath) then
-					pcall(function()
-						LogoAsset = getcustomasset(LogoPath)
-					end)
-				end
+								local LogoAsset = "rbxthumb://type=Asset&id=94669191691405&w=150&h=150"
 
 				Items["Logo"] = Instances:Create("ImageLabel", {
 					Parent = Items["Inline"].Instance,
