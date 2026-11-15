@@ -3389,16 +3389,7 @@ do
 					ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 				}):AddToTheme({ Color = "Window Outline" })
 
-								local ImgBBLogoUrl = "https://i.ibb.co/kV9R7w82/euleon.gif"
-				local LogoPath = Library.Folders.Assets .. "/CustomLogo_imgbb.gif"
-
-				if not isfile(LogoPath) then
-					pcall(function()
-						writefile(LogoPath, game:HttpGet(ImgBBLogoUrl))
-					end)
-				end
-
-				local LogoAsset = "rbxthumb://type=Asset&id=94669191691405&w=150&h=150"
+				local LogoAsset = "rbxthumb://type=Asset&id=122061828886222&w=150&h=150"
 				if isfile(LogoPath) then
 					pcall(function()
 						LogoAsset = getcustomasset(LogoPath)
