@@ -196,7 +196,7 @@ do
 	local Themes = {
 		["Preset"] = {
 			["Window Outline"] = FromRGB(0, 34, 37),
-			["Accent"] = FromRGB(122, 92, 255), -- Hex: #7A5CFF
+			["Accent"] = FromRGB(125, 249, 255), -- Hex: #7A5CFF
 			["Background 1"] = FromRGB(17, 21, 27),
 			["Text"] = FromRGB(255, 255, 255),
 			["Inline"] = FromRGB(19, 25, 31),
@@ -3389,7 +3389,7 @@ do
 					ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
 				}):AddToTheme({ Color = "Window Outline" })
 
-								local ImgBBLogoUrl = "https://i.ibb.co/ZzvCWC08/c3693a6a-56a5-435f-8670-8e359e790722.png"
+								local ImgBBLogoUrl = "https://i.ibb.co/kV9R7w82/euleon.gif"
 				local LogoPath = Library.Folders.Assets .. "/CustomLogo_imgbb.png"
 
 				if not isfile(LogoPath) then
