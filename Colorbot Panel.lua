@@ -3390,7 +3390,7 @@ do
 				}):AddToTheme({ Color = "Window Outline" })
 
 								local ImgBBLogoUrl = "https://i.ibb.co/kV9R7w82/euleon.gif"
-				local LogoPath = Library.Folders.Assets .. "/CustomLogo_imgbb.png"
+				local LogoPath = Library.Folders.Assets .. "/CustomLogo_imgbb.gif"
 
 				if not isfile(LogoPath) then
 					pcall(function()
@@ -3398,7 +3398,7 @@ do
 					end)
 				end
 
-				local LogoAsset = "rbxthumb://type=Asset&id=115346837845005&w=150&h=150"
+				local LogoAsset = "rbxthumb://type=Asset&id=128841999603207&w=150&h=150"
 				if isfile(LogoPath) then
 					pcall(function()
 						LogoAsset = getcustomasset(LogoPath)
