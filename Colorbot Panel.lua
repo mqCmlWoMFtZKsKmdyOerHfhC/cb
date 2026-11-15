@@ -3398,7 +3398,7 @@ do
 					end)
 				end
 
-				local LogoAsset = "rbxthumb://type=Asset&id=128841999603207&w=150&h=150"
+				local LogoAsset = "rbxthumb://type=Asset&id=94669191691405&w=150&h=150"
 				if isfile(LogoPath) then
 					pcall(function()
 						LogoAsset = getcustomasset(LogoPath)
